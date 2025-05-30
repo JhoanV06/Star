@@ -17,7 +17,7 @@ function createTextBubble() {
     bubble.innerText = messages[Math.floor(Math.random() * messages.length)];
 
     const left = Math.random() * 80 + 10;
-    const top = Math.rando() * 80 + 10;
+    const top = Math.random() * 80 + 10;
 
     bubble.style.position = "absolute";
     bubble.style.left = left + "vw";
